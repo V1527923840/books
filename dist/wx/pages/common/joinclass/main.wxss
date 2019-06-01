@@ -1,0 +1,27 @@
+
+.title {
+  padding-left: 35%;
+  margin: 80rpx 0;
+}
+.title ._h1 {
+  margin: 0 auto;
+  font-weight: bold;
+}
+.write {
+  margin: 0 auto;
+}
+.write ._li {
+  width: 500rpx;
+  margin: 0 auto;
+  padding: 20rpx;
+}
+.write ._input {
+  width: 360rpx;
+  float: right;
+  border: 2rpx solid gray;
+}
+._button {
+  margin-top: 100rpx;
+  width: 400rpx;
+  background: skyblue;
+}

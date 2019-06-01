@@ -1,0 +1,19 @@
+
+.member ._li {
+  height: 160rpx;
+  background: lemonchiffon;
+  margin: 20rpx;
+  border-radius: 10rpx;
+}
+.member image {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 20rpx;
+  border-radius: 60rpx;
+}
+.member ._span {
+  font-weight: 30;
+  font-size: 60rpx;
+  position: relative;
+  top: -52rpx;
+}

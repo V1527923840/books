@@ -1,0 +1,17 @@
+<template name="9822f88c">
+  <view class="_div data-v-506ddc40">
+    <view class="_ul data-v-506ddc40 bookestimate">
+      <view class="_li data-v-506ddc40">
+        <navigator url="/pages/mine/pingjia/pingjiadetail/main" class="_a data-v-506ddc40">
+          <image class="_image data-v-506ddc40 bookimage" src="../../../static/images/lunbo4.png"></image>
+          <view class="_ul data-v-506ddc40 bookcontent">
+            <view class="_li data-v-506ddc40 bookname">书名:xxx</view>
+            <view class="_li data-v-506ddc40 bookpublish">出版社:xxxx</view>
+            <view class="_li data-v-506ddc40 bookstate">已评价/未评价</view>
+          </view>
+          <view class="_div data-v-506ddc40 arrow">></view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</template>

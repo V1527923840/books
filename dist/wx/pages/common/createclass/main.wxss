@@ -1,0 +1,30 @@
+
+.picker {
+  background-color: white;
+  line-height: 120rpx;
+  margin: 0 auto;
+  border: 5rpx solid black;
+  border-radius: 20rpx;
+  text-align: center;
+}
+.write {
+  margin: 0 auto;
+  padding-top: 100rpx;
+}
+.write ._li {
+  width: 700rpx;
+  margin: 0 auto;
+  padding: 20rpx 0;
+}
+.write ._input {
+  height: 100rpx;
+  background-color: white;
+  border: 5rpx solid black;
+}
+._button {
+  background: rgb(44,44,44);
+  color: rgb(206, 206, 206);
+  width: 600rpx;
+  border-radius: 40rpx;
+  margin-top: 40rpx;
+}

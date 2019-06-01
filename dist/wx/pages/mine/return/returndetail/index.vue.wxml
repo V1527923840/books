@@ -1,0 +1,23 @@
+<template name="0df9f5d7">
+  <view class="_div data-v-0c7913e0">
+    <view class="_div data-v-0c7913e0 photoswiper">
+      <swiper class="_swiper data-v-0c7913e0 swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+        <block wx:key="index" key="{{index}}" wx:for="{{movies}}" wx:for-index="index" wx:for-item="item">
+          <swiper-item class="_swiper-item data-v-0c7913e0">
+            <image src="{{item.url}}" class="_image data-v-0c7913e0 slide-image" mode="aspectFill"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="_div data-v-0c7913e0 bookdetail">
+      <view class="_ul data-v-0c7913e0">
+        <view style="font-weight: bold; font-size: 20px" class="_li data-v-0c7913e0">书名:xxx</view>
+        <view class="_li data-v-0c7913e0">作者:xxx</view>
+        <view style="font-weight: bold;font-size: 20px" class="_li data-v-0c7913e0">借书人:王五</view>
+        <view class="_li data-v-0c7913e0">借阅期限: 15天</view>
+        <view class="_li data-v-0c7913e0">还书日期: 2019年6月30日</view>
+      </view>
+    </view>
+    <view class="_div data-v-0c7913e0 bookstate">已借阅</view> <button class="_button data-v-0c7913e0 btn">确认还书</button>
+  </view>
+</template>

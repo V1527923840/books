@@ -1,0 +1,1 @@
+<import src="/pages/mine/readcoin/index.vue.wxml" /><template is="1e61bb99" data="{{ ...$root['0'], $root }}"/>

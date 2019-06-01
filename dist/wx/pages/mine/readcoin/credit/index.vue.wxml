@@ -1,0 +1,16 @@
+<template name="49915538">
+  <view class="_div data-v-5a063431">
+    <view class="_ul data-v-5a063431 creditdetail">
+      <view class="_li data-v-5a063431">
+        <view class="_div data-v-5a063431 title">按时还书</view>
+        <view class="_div data-v-5a063431 date">2019-05-10</view>
+        <view class="_div data-v-5a063431 detail">+5</view>
+      </view>
+      <view class="_li data-v-5a063431">
+        <view class="_div data-v-5a063431 title">逾期未还</view>
+        <view class="_div data-v-5a063431 date">2019-05-10</view>
+        <view class="_div data-v-5a063431 detail">-10</view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,22 @@
+<template name="1e61bb99">
+  <view class="_div data-v-9db908a6">
+    <view class="_ul data-v-9db908a6 top">
+      <view class="_li data-v-9db908a6">
+        <image src="../../../static/images/coin.png" class="_image data-v-9db908a6"></image>
+        <view class="_div data-v-9db908a6 top-text">信用度:100</view>
+      </view>
+      <view class="_li data-v-9db908a6">
+        <image src="../../../static/images/coin.png" class="_image data-v-9db908a6"></image>
+        <view class="_div data-v-9db908a6 top-text">悦读币:???</view>
+      </view>
+    </view>
+    <view class="_ul data-v-9db908a6 readcoincontent">
+      <view class="_li data-v-9db908a6">
+        <navigator url="/pages/mine/readcoin/coin/main" class="_a data-v-9db908a6">悦读币收入/支出</navigator>
+      </view>
+      <view class="_li data-v-9db908a6">
+        <navigator url="/pages/mine/readcoin/credit/main" class="_a data-v-9db908a6">信用度详情</navigator>
+      </view>
+    </view> <button class="_button data-v-9db908a6 btn">点击每日打卡，获取悦读币</button>
+  </view>
+</template>

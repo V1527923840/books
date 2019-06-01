@@ -1,0 +1,19 @@
+<template name="391fb57a">
+  <view class="_div data-v-03b6db17">
+    <view class="_h5 data-v-03b6db17 title">我的收藏</view>
+    <view class="_div data-v-03b6db17">
+      <view class="_ul data-v-03b6db17 favourlist">
+        <view class="_li data-v-03b6db17">
+          <navigator url="/pages/common/bookdetail/main" class="_a data-v-03b6db17">
+            <image class="_image data-v-03b6db17 bookimage" src="../../../static/images/lunbo4.png"></image>
+            <view class="_ul data-v-03b6db17 favourcontent">
+              <view class="_li data-v-03b6db17 bookname">书名:xxx</view>
+              <view class="_li data-v-03b6db17 bookauthor">作者:xxx</view>
+            </view>
+            <view class="_div data-v-03b6db17 arrow">></view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,38 @@
+
+.title {
+  margin: 40rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50rpx;
+}
+.favourlist ._a {
+  height: 200rpx;
+  background: lightseagreen;
+  margin: 20rpx;
+  border-radius: 10rpx;
+}
+.favourlist image {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+}
+.favourcontent {
+  top: -180rpx;
+  left: 200rpx;
+}
+.favourcontent,
+.arrow {
+  position: relative;
+}
+.favourcontent ._li {
+  margin-bottom: 40rpx;
+}
+.bookname,
+.arrow {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.arrow {
+  top: -320rpx;
+  left: 600rpx;
+}

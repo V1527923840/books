@@ -1,0 +1,30 @@
+<template name="758e8b4c">
+  <view class="_div data-v-764f5732">
+    <view class="_ul data-v-764f5732 booklist">
+      <view class="_li data-v-764f5732">
+        <navigator url="/pages/mine/landouted/landouteddetail/main" class="_a data-v-764f5732">
+          <image class="_image data-v-764f5732 bookimage" src="../../../static/images/lunbo4.png"></image>
+          <view class="_ul data-v-764f5732 bookcontent">
+            <view class="_li data-v-764f5732 bookname">书名:xxx</view>
+            <view class="_li data-v-764f5732 bookpublish">出版社:xxxx</view>
+            <view class="_li data-v-764f5732 booklander">借书人:xxx</view>
+            <view class="_li data-v-764f5732 bookreturndate">归还日期:xx月xx日</view>
+          </view>
+          <view class="_div data-v-764f5732 arrow">></view>
+        </navigator>
+      </view>
+      <view class="_li data-v-764f5732">
+        <navigator url="/pages/mine/landouted/landouteddetail/main" class="_a data-v-764f5732">
+          <image class="_image data-v-764f5732 bookimage" src="../../../static/images/lunbo4.png"></image>
+          <view class="_ul data-v-764f5732 bookcontent">
+            <view class="_li data-v-764f5732 bookname">书名:xxx</view>
+            <view class="_li data-v-764f5732 bookpublish">出版社:xxxx</view>
+            <view class="_li data-v-764f5732 booklander">借书人:xxx</view>
+            <view class="_li data-v-764f5732 bookreturndate">归还日期:xx月xx日</view>
+          </view>
+          <view class="_div data-v-764f5732 arrow">></view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</template>

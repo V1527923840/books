@@ -1,0 +1,28 @@
+
+.title {
+  margin: 40rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50rpx;
+}
+.classcontent ._li {
+  line-height: 120rpx;
+  background: lightblue;
+  margin: 20rpx;
+  border-radius: 10rpx;
+  padding-left: 20rpx;
+}
+.classcontent ._a {
+  border-radius: 10rpx;
+}
+.arrow {
+  height: 10rpx;
+  position: relative;
+  top: -120rpx;
+  left: 600rpx;
+}
+.classbtn {
+  width: 95%;
+  bottom: -100rpx;
+  background: lightcoral;
+}

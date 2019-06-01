@@ -1,0 +1,21 @@
+<template name="d901f9e0">
+  <view class="_div data-v-650d4d09">
+    <view class="_ul data-v-650d4d09 coindetail">
+      <view class="_li data-v-650d4d09">
+        <view class="_div data-v-650d4d09 title">看广告</view>
+        <view class="_div data-v-650d4d09 date">2019-05-10</view>
+        <view class="_div data-v-650d4d09 detail">+5</view>
+      </view>
+      <view class="_li data-v-650d4d09">
+        <view class="_div data-v-650d4d09 title">按时还书</view>
+        <view class="_div data-v-650d4d09 date">2019-05-10</view>
+        <view class="_div data-v-650d4d09 detail">+2</view>
+      </view>
+      <view class="_li data-v-650d4d09">
+        <view class="_div data-v-650d4d09 title">看广告</view>
+        <view class="_div data-v-650d4d09 date">2019-05-10</view>
+        <view class="_div data-v-650d4d09 detail">+5</view>
+      </view>
+    </view>
+  </view>
+</template>

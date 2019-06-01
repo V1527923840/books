@@ -1,0 +1,21 @@
+<template name="8acb4672">
+  <view class="_div data-v-57ba542d">
+    <view class="_h5 data-v-57ba542d title">我的班级</view>
+    <view class="_ul data-v-57ba542d classcontent">
+      <view class="_li data-v-57ba542d">班级名:</view>
+      <view class="_li data-v-57ba542d">
+        <navigator url="/pages/mine/myclassdetail/classcode/main" class="_a data-v-57ba542d">二维码: <view class="_div data-v-57ba542d arrow">></view>
+        </navigator>
+      </view>
+      <view class="_li data-v-57ba542d">邀请码:xxxxxxxxxx</view>
+      <view class="_li data-v-57ba542d classmember">
+        <navigator url="/pages/mine/myclassdetail/classmember/main" class="_a data-v-57ba542d">成员: <view class="_div data-v-57ba542d arrow">></view>
+        </navigator>
+      </view>
+      <view class="_li data-v-57ba542d">
+        <navigator url="/pages/mine/myclassdetail/classmanage/main" class="_a data-v-57ba542d">申请入群审批 <view class="_div data-v-57ba542d arrow">></view>
+        </navigator>
+      </view>
+    </view> <button class="_button data-v-57ba542d classbtn">退出</button>
+  </view>
+</template>

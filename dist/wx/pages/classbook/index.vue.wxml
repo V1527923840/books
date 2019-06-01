@@ -1,0 +1,24 @@
+<template name="c2b2e4ac">
+  <view class="_div data-v-6c4656ab">
+    <view wx:if="{{showJoin}}" class="_div data-v-6c4656ab">
+      <view class="_div data-v-6c4656ab tips">未加入班级，请加入您的班级</view>
+      <view class="_div data-v-6c4656ab join">
+        <navigator url="/pages/common/joinclass/main" class="_a data-v-6c4656ab">加入班级</navigator>
+      </view>
+      <view class="_div data-v-6c4656ab create">
+        <navigator url="/pages/common/createclass/main" class="_a data-v-6c4656ab">创建班级?</navigator>
+      </view>
+    </view>
+    <view wx:if="{{showList}}" class="_div data-v-6c4656ab">
+      <view class="_ul data-v-6c4656ab booklist">
+        <view wx:key="key" key="{{key}}" wx:for="{{bookList}}" wx:for-index="key" wx:for-item="item" class="_li data-v-6c4656ab">
+          <navigator url="#" class="_a data-v-6c4656ab">
+            <image class="_image data-v-6c4656ab bookphoto" src="{{item.coverUrl}}"></image>
+            <view class="_div data-v-6c4656ab bookname">{{item.bookName}}</view>
+            <view class="_div data-v-6c4656ab price">价格:{{item.price}}</view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

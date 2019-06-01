@@ -1,0 +1,12 @@
+<template name="2aa75460">
+  <view class="_div data-v-15ca0eb6">
+    <view class="_div data-v-15ca0eb6 title">
+      <view class="_h1 data-v-15ca0eb6">加入您的班级</view>
+    </view>
+    <view class="_ul data-v-15ca0eb6 write">
+      <view class="_li data-v-15ca0eb6">姓名: <input type="text" class="_input data-v-15ca0eb6" /></view>
+      <view class="_li data-v-15ca0eb6">学号: <input type="text" class="_input data-v-15ca0eb6" /></view>
+      <view class="_li data-v-15ca0eb6">邀请码: <input type="text" class="_input data-v-15ca0eb6" /></view>
+    </view> <button class="_button data-v-15ca0eb6">申请加入</button>
+  </view>
+</template>

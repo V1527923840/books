@@ -1,0 +1,7 @@
+<template name="a158ef5a">
+  <view class="_div data-v-434cbc28">
+    <view class="_div data-v-434cbc28 post"><button class="_button data-v-434cbc28 scancode" bindtap="handleProxy" type="primary" data-eventid="{{'0'}}" data-comkey="{{$k}}">点击扫码录入书籍信息</button>
+      <view class="_a data-v-434cbc28 write">手动输入</view>
+    </view>
+  </view>
+</template>

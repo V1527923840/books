@@ -1,0 +1,11 @@
+<template name="245b96c6">
+  <view class="_div data-v-5361b05f news">
+    <view class="_ul data-v-5361b05f content">
+      <view class="_li data-v-5361b05f">
+        <view class="_div data-v-5361b05f name">张三</view> <button class="_button data-v-5361b05f">
+          <image src="../../static/images/lunbo4.png" class="_image data-v-5361b05f"></image>
+        </button>
+      </view>
+    </view>
+  </view>
+</template>

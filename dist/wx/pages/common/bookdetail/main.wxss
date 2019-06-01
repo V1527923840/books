@@ -1,0 +1,78 @@
+
+.swiper {
+  height: 500rpx;
+  margin: 10rpx;
+}
+image {
+  height: 100%;
+  width: 100%;
+}
+.bookcontent {
+  margin: 20rpx;
+  background: lightgoldenrodyellow;
+}
+.book {
+  height: 260rpx;
+  width: 100%;
+}
+.book ._li {
+  position: relative;
+  left: 40rpx;
+  line-height: 130rpx;
+}
+.bookmessage {
+  float: left;
+  padding-left: 60rpx;
+}
+.bookmessage ._li {
+  font-weight: bold;
+  font-size: 46rpx;
+}
+.bookprofile {
+  width: 640rpx;
+  height: auto;
+  background: lightgreen;
+  word-wrap: break-word;
+  word-break: break-all;
+  position: relative;
+  left: 7%;
+}
+.bookbtn ._button {
+  background: lightcyan;
+  float: left;
+  width: 300rpx;
+  margin: 20rpx 0 0 40rpx;
+}
+.bookcomment {
+  margin: 140rpx 20rpx 0;
+}
+.line {
+  text-align: center;
+  background: white;
+}
+.bookcomment ._li {
+  margin: 20rpx 0;
+  background: lightgrey;
+  width: 100%;
+  height: auto;
+}
+.bookcomment image {
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 60rpx;
+  margin: 20rpx;
+}
+.bookcomment-name {
+  font-weight: bold;
+  font-size: 50rpx;
+  position: relative;
+  top: -120rpx;
+  left: 200rpx;
+}
+.bookcomment-comment {
+  position: relative;
+  top: -80rpx;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin: 0 40rpx;
+}

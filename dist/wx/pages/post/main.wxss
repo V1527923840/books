@@ -1,0 +1,13 @@
+
+.scancode {
+  width: 500rpx;
+  margin-bottom: 40rpx;
+  margin-top: 400rpx;
+}
+.write {
+  text-align: center;
+  background-color: white;
+  font-size: 32rpx;
+  text-decoration: underline;
+  border: 0 solid white;
+}

@@ -1,0 +1,46 @@
+<template name="98779e58">
+  <view class="_div data-v-27a81e28">
+    <view class="_div data-v-27a81e28 photoswiper">
+      <swiper class="_swiper data-v-27a81e28 swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+        <block wx:key="index" key="{{index}}" wx:for="{{movies}}" wx:for-index="index" wx:for-item="item">
+          <swiper-item class="_swiper-item data-v-27a81e28">
+            <image src="{{item.url}}" class="_image data-v-27a81e28 slide-image" mode="aspectFill"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="_div data-v-27a81e28 bookcontent">
+      <view class="_ul data-v-27a81e28 book">
+        <view class="_li data-v-27a81e28">
+          <view class="_ul data-v-27a81e28 bookmessage">
+            <view class="_li data-v-27a81e28">书名:xxx</view>
+            <view class="_li data-v-27a81e28">出版社:xxx</view>
+          </view>
+        </view>
+        <view class="_li data-v-27a81e28">
+          <view class="_ul data-v-27a81e28 bookmessage">
+            <view class="_li data-v-27a81e28">作者:xxx</view>
+            <view class="_li data-v-27a81e28">状态:xxx</view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-27a81e28 bookprofile">简介: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</view>
+      <view class="_div data-v-27a81e28 bookbtn"><button class="_button data-v-27a81e28">收藏</button> <button class="_button data-v-27a81e28">预约</button></view>
+    </view>
+    <view class="_div data-v-27a81e28 bookcomment">
+      <view class="_ul data-v-27a81e28">
+        <view class="_li data-v-27a81e28 line">-----------评价-----------</view>
+        <view class="_li data-v-27a81e28">
+          <image src="../../../static/images/lunbo1.png" class="_image data-v-27a81e28"></image>
+          <view class="_div data-v-27a81e28 bookcomment-name">同学A</view>
+          <view class="_div data-v-27a81e28 bookcomment-comment">评价:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</view>
+        </view>
+        <view class="_li data-v-27a81e28">
+          <image src="../../../static/images/lunbo1.png" class="_image data-v-27a81e28"></image>
+          <view class="_div data-v-27a81e28 bookcomment-name">同学A</view>
+          <view class="_div data-v-27a81e28 bookcomment-comment">评价:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

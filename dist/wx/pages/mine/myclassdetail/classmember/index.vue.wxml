@@ -1,0 +1,15 @@
+<template name="6c96abfd">
+  <view class="_div data-v-54705020">
+    <view class="_ul data-v-54705020 member">
+      <view class="_li data-v-54705020">
+        <image src="../../../../static/images/lunbo3.png" class="_image data-v-54705020"></image> <label class="_span data-v-54705020">同学A</label>
+      </view>
+      <view class="_li data-v-54705020">
+        <image src="../../../../static/images/lunbo3.png" class="_image data-v-54705020"></image> <label class="_span data-v-54705020">同学B</label>
+      </view>
+      <view class="_li data-v-54705020">
+        <image src="../../../../static/images/lunbo3.png" class="_image data-v-54705020"></image> <label class="_span data-v-54705020">同学C</label>
+      </view>
+    </view>
+  </view>
+</template>

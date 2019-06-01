@@ -1,0 +1,33 @@
+
+.top {
+  height: 360rpx;
+  background: lightcyan;
+}
+.top ._li {
+  font-weight: bold;
+  float: left;
+  padding-left: 140rpx;
+  margin: 80rpx 0;
+}
+.top image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.top-text {
+  position: relative;
+  top: 20rpx;
+  left: -20rpx;
+}
+.readcoincontent ._a {
+  background: lightgoldenrodyellow;
+  line-height: 120rpx;
+  border: 2rpx solid gray;
+  border-radius: 20rpx;
+  margin: 40rpx;
+  padding-left: 20rpx;
+}
+.btn {
+  margin-top: 60rpx;
+  width: 600rpx;
+  background: lightslategray;
+}

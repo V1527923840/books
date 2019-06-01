@@ -1,0 +1,17 @@
+<template name="46630d62">
+  <view class="_div data-v-66a9c336">
+    <view class="_ul data-v-66a9c336 booklist">
+      <view class="_li data-v-66a9c336">
+        <navigator url="/pages/mine/return/returndetail/main" class="_a data-v-66a9c336">
+          <image class="_image data-v-66a9c336 bookimage" src="../../../static/images/lunbo4.png"></image>
+          <view class="_ul data-v-66a9c336 bookcontent">
+            <view class="_li data-v-66a9c336 bookname">书名:xxx</view>
+            <view class="_li data-v-66a9c336 bookpublish">出版社:xxxx</view>
+            <view class="_li data-v-66a9c336 bookreturndate">归还日期:xx月xx日</view>
+          </view>
+          <view class="_div data-v-66a9c336 arrow">></view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</template>

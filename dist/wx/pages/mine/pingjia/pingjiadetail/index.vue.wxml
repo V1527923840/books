@@ -1,0 +1,16 @@
+<template name="4091f23f">
+  <view class="_div data-v-8cf6391c">
+    <view class="_div data-v-8cf6391c"></view>
+    <view class="_div data-v-8cf6391c head"><label class="_span data-v-8cf6391c head-title">评分:</label>
+      <image class="_image data-v-8cf6391c no-star" src="{{noStarUrl}}" bindtap="handleProxy" wx:if="{{activeNum<1}}" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-8cf6391c star" src="{{starUrl}}" wx:if="{{activeNum>0 && activeNum<=5}}" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-8cf6391c no-star" src="{{noStarUrl}}" bindtap="handleProxy" wx:if="{{activeNum<2}}" data-eventid="{{'2'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-8cf6391c star" src="{{starUrl}}" wx:if="{{activeNum>1 && activeNum<=5}}" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-8cf6391c no-star" src="{{noStarUrl}}" bindtap="handleProxy" wx:if="{{activeNum<3}}" data-eventid="{{'4'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-8cf6391c star" src="{{starUrl}}" wx:if="{{activeNum>2 && activeNum<=5}}" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-8cf6391c no-star" src="{{noStarUrl}}" bindtap="handleProxy" wx:if="{{activeNum<4}}" data-eventid="{{'6'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-8cf6391c star" src="{{starUrl}}" wx:if="{{activeNum>3 && activeNum<=5}}" bindtap="handleProxy" data-eventid="{{'7'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-8cf6391c no-star" src="{{noStarUrl}}" bindtap="handleProxy" wx:if="{{activeNum<5}}" data-eventid="{{'8'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-8cf6391c star" src="{{starUrl}}" wx:if="{{activeNum===5}}"></image> <label class="_span data-v-8cf6391c praise" wx:if="{{activeNum===5}}">非常好</label> <label class="_span data-v-8cf6391c praise" wx:if="{{activeNum===4}}">好</label> <label class="_span data-v-8cf6391c praise" wx:if="{{activeNum===3}}">中等</label> <label class="_span data-v-8cf6391c praise" wx:if="{{activeNum===2}}">一般</label> <label class="_span data-v-8cf6391c praise" wx:if="{{activeNum===1}}">差</label>
+    </view>
+    <view class="_div data-v-8cf6391c"><textarea name id cols="30" rows="10" placeholder="说说你的阅读心得" class="_textarea data-v-8cf6391c" /></view> <button class="_button data-v-8cf6391c btn">提交</button></view></template>

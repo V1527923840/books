@@ -1,0 +1,11 @@
+<template name="7849fd08">
+  <view class="_div data-v-3d09ae0a">
+    <view class="_ul data-v-3d09ae0a apply">
+      <view class="_li data-v-3d09ae0a">
+        <image src="../../../../static/images/lunbo3.png" class="_image data-v-3d09ae0a"></image>
+        <view class="_div data-v-3d09ae0a applyname">同学A</view>
+        <view class="_div data-v-3d09ae0a applynumber">学号:123465</view> <button class="_button data-v-3d09ae0a agree">同意</button> <button class="_button data-v-3d09ae0a reject">拒绝</button>
+      </view>
+    </view>
+  </view>
+</template>

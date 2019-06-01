@@ -1,0 +1,40 @@
+
+.booklist ._li {
+  background: lightcoral;
+  margin: 10rpx 0;
+  border-radius: 20rpx;
+}
+.booklist ._a {
+  height: 360rpx;
+}
+.booklist image {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 40rpx;
+}
+.bookcontent ._li {
+  position: relative;
+  width: 340rpx;
+  height: 60rpx;
+  top: -210rpx;
+  left: 260rpx;
+}
+.bookname {
+  font-size: 40rpx;
+  margin-bottom: 20rpx;
+}
+.bookpublish {
+  font-size: 30rpx;
+}
+.bookname,
+.booklander,
+.bookreturndate {
+  font-weight: bold;
+}
+.arrow {
+  position: relative;
+  top: -380rpx;
+  left: 640rpx;
+  font-weight: bold;
+  font-size: 46rpx;
+}

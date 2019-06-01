@@ -1,0 +1,61 @@
+<template name="da6d5f74">
+  <view class="_div data-v-7c612c42">
+    <view wx:if="{{showlogin}}" class="_div data-v-7c612c42">
+      <view class="_div data-v-7c612c42 header">
+        <image src="../../static/images/lunbo3.png" class="_image data-v-7c612c42"></image>
+      </view>
+      <view class="_div data-v-7c612c42 content">
+        <view class="_div data-v-7c612c42">申请获取以下权限</view> <text class="_text data-v-7c612c42">获得你的公开信息(昵称，头像等)</text>
+      </view> <button class="_button data-v-7c612c42 bottom" type="primary" open-type="getUserInfo" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">授权登录</button>
+    </view>
+    <view wx:if="{{showcontent}}" class="_div data-v-7c612c42">
+      <view class="_div data-v-7c612c42 account">
+        <image class="_image data-v-7c612c42 accountimg" src="{{photo}}"></image>
+        <view class="_div data-v-7c612c42 accountname">{{name}}</view>
+        <view class="_div data-v-7c612c42 faith">信用度:100</view>
+        <view class="_div data-v-7c612c42 coin">悦读币:???</view>
+      </view>
+      <view class="_div data-v-7c612c42 state">
+        <view class="_ul data-v-7c612c42 bookstate">
+          <view class="_li data-v-7c612c42">
+            <navigator url="/pages/mine/landout/main" class="_a data-v-7c612c42">待借出</navigator>
+            <view class="_div data-v-7c612c42 count">1</view>
+          </view>
+          <view class="_li data-v-7c612c42">
+            <navigator url="/pages/mine/landouted/main" class="_a data-v-7c612c42">已借出</navigator>
+            <view class="_div data-v-7c612c42 count">2</view>
+          </view>
+          <view class="_li data-v-7c612c42">
+            <navigator url="/pages/mine/return/main" class="_a data-v-7c612c42">待还书</navigator>
+            <view class="_div data-v-7c612c42 count">5</view>
+          </view>
+          <view class="_li data-v-7c612c42">
+            <navigator url="/pages/mine/pingjia/main" class="_a data-v-7c612c42">评价</navigator>
+            <view class="_div data-v-7c612c42 count">4</view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-7c612c42 mydata">
+        <view class="_ul data-v-7c612c42 data">
+          <view class="_li data-v-7c612c42">
+            <navigator url="/pages/mine/favour/main" class="_a data-v-7c612c42">我的收藏</navigator>
+            <view class="_div data-v-7c612c42 arrow">></view>
+          </view>
+          <view class="_li data-v-7c612c42">
+            <navigator url="/pages/mine/myclassdetail/main" class="_a data-v-7c612c42">我的班级</navigator>
+            <view class="_div data-v-7c612c42 arrow">></view>
+          </view>
+          <view class="_li data-v-7c612c42">
+            <navigator url="/pages/mine/readcoin/main" class="_a data-v-7c612c42">信用度/悦读币</navigator>
+            <view class="_div data-v-7c612c42 arrow">></view>
+          </view>
+          <view class="_li data-v-7c612c42">
+            <navigator url="/pages/mine/news/main" class="_a data-v-7c612c42">消息</navigator>
+            <view class="_div data-v-7c612c42 arrow">></view>
+            <view class="_div data-v-7c612c42 datacount">5</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

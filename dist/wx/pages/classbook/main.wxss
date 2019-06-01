@@ -1,0 +1,66 @@
+
+page {
+  background: rgb(245,245,245);
+}
+.tips {
+  margin-top: 140rpx;
+  text-align: center;
+}
+.join {
+  margin: 0 auto;
+  width: 200rpx;
+  line-height: 100rpx;
+  background: skyblue;
+  border-radius: 20rpx;
+  margin-top: 200rpx;
+}
+.join ._a {
+  text-align: center;
+  font-size: 40rpx;
+}
+.create {
+  margin-top: 40rpx;
+}
+.create ._a {
+  text-align: center;
+  font-size: 30rpx;
+  text-decoration: underline;
+}
+.booklist ._li {
+  width: 355rpx;
+  height: 460rpx;
+  background-color: rgb(255,255,255);
+  margin: 10rpx;
+  float: left;
+  border-radius: 20rpx;
+}
+.booklist ._a {
+  width: 355rpx;
+  height: 460rpx;
+  position: absolute;
+}
+.bookphoto,
+.bookname,
+.price {
+  position: relative;
+}
+.bookphoto {
+  width: 200rpx;
+  height: 220rpx;
+  top: 40rpx;
+  left: 22%;
+}
+.bookname {
+  margin: 0 auto;
+  width: 300rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+  top: 40rpx;
+}
+.price {
+  top: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: red;
+}

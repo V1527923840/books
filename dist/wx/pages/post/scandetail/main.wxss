@@ -1,0 +1,22 @@
+
+.bookimage {
+  width: 300rpx;
+  height: 400rpx;
+  margin: 60rpx 0;
+  position: relative;
+  left: 30%;
+}
+.bookcontent ._li {
+  text-align: center;
+  margin: 30rpx 0;
+}
+.bookname {
+  font-weight: bold;
+}
+.publishdate,
+.publisher {
+  font-size: 30rpx;
+}
+.button {
+  width: 400rpx;
+}

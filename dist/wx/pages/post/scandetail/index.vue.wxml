@@ -1,0 +1,14 @@
+<template name="0484c8da">
+  <view class="_div data-v-5060d5e7">
+    <view class="_div data-v-5060d5e7">
+      <image class="_image data-v-5060d5e7 bookimage" src="{{bookPhoto}}"></image>
+      <view class="_ul data-v-5060d5e7 bookcontent">
+        <view class="_li data-v-5060d5e7 bookname">{{bookName}}</view>
+        <view class="_li data-v-5060d5e7 publishdate">出版日期:{{bookPublishDate}}</view>
+        <view class="_li data-v-5060d5e7 publisher">出版社:{{bookPublisher}}</view>
+        <view class="_li data-v-5060d5e7"><input type="number" value="{{bookprice}}" bindinput="handleProxy" maxlength="3" placeholder="请输入借阅的悦读币价格" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-5060d5e7" /></view>
+        <view style="color:red;font-size:10px;" class="_li data-v-5060d5e7"> 悦读币的价格为整数 </view>
+      </view> <button type="primary" class="_button data-v-5060d5e7 button" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">发布</button>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,73 @@
+{
+  "pages": [
+   
+    
+    "pages/post/main",
+    "pages/post/scandetail/main",
+    "pages/classbook/main",
+    "pages/mine/main",
+
+    "pages/common/joinclass/main",
+    "pages/common/createclass/main",
+    "pages/common/bookdetail/main",
+
+        
+    "pages/mine/return/main",
+    "pages/mine/return/returndetail/main",
+
+    "pages/mine/landout/main",
+    "pages/mine/landout/landoutdetail/main",
+
+    "pages/mine/landouted/main",
+    "pages/mine/landouted/landouteddetail/main",
+
+    "pages/mine/pingjia/main",
+    "pages/mine/pingjia/pingjiadetail/main",
+
+    "pages/mine/myclassdetail/main",
+    "pages/mine/myclassdetail/classmanage/main", 
+    "pages/mine/myclassdetail/classmember/main",
+    "pages/mine/myclassdetail/classcode/main",
+
+    "pages/mine/readcoin/main",
+    "pages/mine/readcoin/coin/main",
+    "pages/mine/readcoin/credit/main",
+
+    "pages/mine/news/main",
+    "pages/mine/favour/main"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "悦读",
+    "navigationBarTextStyle": "black"
+
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "班级书籍",
+      "pagePath": "pages/classbook/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "发布",
+      "pagePath": "pages/post/main", 
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    },
+    {
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png",
+      "backgroundColor": "black"
+    }],
+    "position": "bottom"
+  }
+}

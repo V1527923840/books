@@ -1,0 +1,31 @@
+
+.codecontent {
+  margin: 40rpx;
+  background: lightcoral;
+}
+.classphoto {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+  margin: 20rpx;
+}
+.classname,
+.classcode,
+.tips {
+  position: relative;
+}
+.classname {
+  top: -160rpx;
+  left: 220rpx;
+}
+.classcode {
+  width: 600rpx;
+  height: 600rpx;
+  top: -100rpx;
+  left: 34rpx;
+}
+.tips {
+  font-size: 28rpx;
+  top: -80rpx;
+  text-align: center;
+}

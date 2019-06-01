@@ -1,0 +1,27 @@
+
+.creditdetail ._li {
+  background: lightyellow;
+  border: 2rpx solid gray;
+  border-radius: 20rpx;
+  margin: 20rpx;
+  padding-left: 40rpx;
+}
+.title,
+.detail,
+.date {
+  position: relative;
+}
+.title {
+  font-weight: bold;
+  top: 20rpx;
+  font-size: 40rpx;
+}
+.date {
+  top: 30rpx;
+  font-size: 32rpx;
+}
+.detail {
+  top: -50rpx;
+  left: 560rpx;
+  font-weight: bold;
+}

@@ -1,0 +1,1 @@
+<import src="/pages/mine/landout/landoutdetail/index.vue.wxml" /><template is="3d5d8da5" data="{{ ...$root['0'], $root }}"/>

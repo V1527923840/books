@@ -1,0 +1,13 @@
+<template name="33824445">
+  <view class="_div data-v-35905fd9 news">
+    <view class="_h5 data-v-35905fd9 title">消息</view>
+    <view class="_ul data-v-35905fd9 newscontent">
+      <view class="_li data-v-35905fd9"> 消息:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <view class="_div data-v-35905fd9 newsdate">2019-05-11</view>
+      </view>
+      <view class="_li data-v-35905fd9"> 消息:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <view class="_div data-v-35905fd9 newsdate">2019-05-11</view>
+      </view>
+      <view class="_li data-v-35905fd9"> 消息:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <view class="_div data-v-35905fd9 newsdate">2019-05-11</view>
+      </view>
+    </view>
+  </view>
+</template>

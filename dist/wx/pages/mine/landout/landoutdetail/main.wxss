@@ -1,0 +1,25 @@
+
+page {
+  background: lightcyan;
+}
+.swiper {
+  height: 500rpx;
+  margin: 10rpx;
+}
+.bookdetail {
+  margin: 60rpx;
+}
+.bookdetail ._li {
+  margin: 20rpx 0;
+}
+.bookstate {
+  font-weight: bold;
+  font-size: 60rpx;
+  position: relative;
+  top: -300rpx;
+  left: 440rpx;
+}
+.btn {
+  width: 400rpx;
+  background: lightblue;
+}

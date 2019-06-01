@@ -1,0 +1,43 @@
+
+.apply ._li {
+  height: 160rpx;
+  background: lemonchiffon;
+  margin: 20rpx;
+  border-radius: 10rpx;
+}
+.apply image {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 20rpx;
+  border-radius: 60rpx;
+}
+.applyname,
+.applynumber,
+.apply ._button {
+  position: relative;
+}
+.applyname {
+  top: -140rpx;
+  left: 180rpx;
+  font-weight: bold;
+  font-size: 40rpx;
+}
+.applynumber {
+  top: -130rpx;
+  left: 180rpx;
+}
+.agree,
+.reject {
+  height: 100rpx;
+  width: 150rpx;
+}
+.agree {
+  background: lightblue;
+  top: -230rpx;
+  left: 140rpx;
+}
+.reject {
+  background: lightcoral;
+  top: -330rpx;
+  left: 290rpx;
+}

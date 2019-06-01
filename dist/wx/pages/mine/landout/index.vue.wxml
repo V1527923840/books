@@ -1,0 +1,41 @@
+<template name="5e0a35a6">
+  <view class="_div data-v-1655195a">
+    <view class="_div data-v-1655195a">
+      <view class="_ul data-v-1655195a booklist">
+        <view class="_li data-v-1655195a">
+          <navigator url="/pages/mine/landout/landoutdetail/main" class="_a data-v-1655195a">
+            <image class="_image data-v-1655195a bookimage" src="../../../static/images/lunbo4.png"></image>
+            <view class="_ul data-v-1655195a bookcontent">
+              <view class="_li data-v-1655195a bookname">书名:xxx</view>
+              <view class="_li data-v-1655195a bookauthor">作者:xxx</view>
+              <view class="_li data-v-1655195a bookpublish">出版社:xxxx</view>
+            </view>
+            <view class="_div data-v-1655195a state">已借出 ></view>
+          </navigator>
+        </view>
+        <view class="_li data-v-1655195a">
+          <navigator url="/pages/mine/landout/landoutdetail/main" class="_a data-v-1655195a">
+            <image class="_image data-v-1655195a bookimage" src="../../../static/images/lunbo4.png"></image>
+            <view class="_ul data-v-1655195a bookcontent">
+              <view class="_li data-v-1655195a bookname">书名:xxx</view>
+              <view class="_li data-v-1655195a bookauthor">作者:xxx</view>
+              <view class="_li data-v-1655195a bookpublish">出版社:xxxx</view>
+            </view>
+            <view class="_div data-v-1655195a state">已借出 ></view>
+          </navigator>
+        </view>
+        <view class="_li data-v-1655195a">
+          <navigator url="/pages/mine/landout/landoutdetail/main" class="_a data-v-1655195a">
+            <image class="_image data-v-1655195a bookimage" src="../../../static/images/lunbo4.png"></image>
+            <view class="_ul data-v-1655195a bookcontent">
+              <view class="_li data-v-1655195a bookname">书名:xxx</view>
+              <view class="_li data-v-1655195a bookauthor">作者:xxx</view>
+              <view class="_li data-v-1655195a bookpublish">出版社:xxxx</view>
+            </view>
+            <view class="_div data-v-1655195a state">待预约 ></view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
